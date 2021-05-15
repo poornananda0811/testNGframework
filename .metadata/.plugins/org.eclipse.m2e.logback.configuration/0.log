@@ -1,0 +1,221 @@
+2020-09-25 11:11:12,607 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-25 11:11:56,922 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: testNGframework:testNGframework:0.0.1-SNAPSHOT @ F:\testNGframework\testNGframework\pom.xml.
+2020-09-25 11:12:08,990 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /testNGframework/src
+2020-09-25 11:12:08,991 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /testNGframework/src/resources overlaps with sources folder /testNGframework/src
+2020-09-25 11:12:08,992 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /testNGframework/src/test/java because it overlaps with /testNGframework/src
+2020-09-25 11:12:09,351 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 27 sec
+2020-09-25 11:12:15,241 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2020-09-25 11:12:15,254 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-25 11:12:15,262 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-09-25 11:12:15,308 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-09-25 11:12:15,314 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2020-09-25 11:12:52,599 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: testNGframework:testNGframework:0.0.1-SNAPSHOT @ F:\testNGframework\testNGframework\pom.xml.
+2020-09-25 11:31:27,964 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-07 22:56:26,852 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-04-07 23:00:20,935 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-07 23:00:20,949 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-07 23:00:20,963 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-07 23:00:21,026 [Worker-21: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-07 23:00:21,033 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-07 23:07:07,336 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"11.0.2","java.vendor":"Oracle Corporation","os.name":"Windows 10","os.arch":"amd64","os.version":"10.0","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.11.0.I20190307-0500","projectCount":1,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.13.300.v20190218-1622"},{"symbolicName":"org.eclipse.m2e.core","version":"1.11.0.20190220-2119"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M2:test":[]}}
+2021-04-07 23:07:24,161 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[na:na]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) ~[na:na]
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556) ~[na:na]
+	at java.base/java.util.TimerThread.run(Timer.java:506) ~[na:na]
+2021-04-07 23:08:49,541 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-07 23:08:49,550 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-07 23:08:49,561 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-07 23:08:49,562 [Worker-25: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-07 23:08:49,571 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-08 09:17:17,612 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-08 14:21:50,538 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-04-30 00:00:54,142 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-04-30 00:01:10,990 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:11,017 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:11,023 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-04-30 00:01:11,182 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:11,183 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-30 00:01:37,316 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:37,320 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:37,324 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-30 00:01:37,326 [Worker-10: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:37,328 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-30 00:01:38,530 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:38,531 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:38,532 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-30 00:01:38,534 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:38,535 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-30 00:01:39,986 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:39,987 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:39,989 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-30 00:01:39,990 [Worker-3: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:39,991 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-30 00:01:41,867 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:41,868 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:41,869 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-30 00:01:41,870 [Worker-16: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:41,871 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-30 00:01:42,986 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:42,986 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:42,987 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-30 00:01:42,989 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:42,990 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-04-30 00:01:48,221 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-04-30 00:01:48,222 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:48,223 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2021-04-30 00:01:48,224 [Worker-0: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-04-30 00:01:48,225 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-02 19:28:53,937 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2021-05-02 19:38:54,352 [Takari usage stats reporter] INFO  i.t.s.m.i.UsageStatsActivator - Reporting usage stats url=https://stats.takari.io/stats, body={"java.version":"11.0.2","java.vendor":"Oracle Corporation","os.name":"Windows 10","os.arch":"amd64","os.version":"10.0","eclipse.product":"org.eclipse.epp.package.jee.product","eclipse.buildId":"4.11.0.I20190307-0500","projectCount":1,"bundles":[{"symbolicName":"org.eclipse.osgi","version":"3.13.300.v20190218-1622"},{"symbolicName":"org.eclipse.m2e.core","version":"1.11.0.20190220-2119"},{"symbolicName":"io.takari.stats.m2e","version":"0.1.0.201506181201"}],"mavenPlugins":{"org.apache.maven.plugins:maven-clean-plugin:2.5:clean":[],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:compile":["configurator"],"org.apache.maven.plugins:maven-compiler-plugin:3.8.0:testCompile":["configurator"],"org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy":[],"org.apache.maven.plugins:maven-install-plugin:2.4:install":[],"org.apache.maven.plugins:maven-jar-plugin:2.4:jar":["configurator"],"org.apache.maven.plugins:maven-resources-plugin:2.6:resources":["execute"],"org.apache.maven.plugins:maven-resources-plugin:2.6:testResources":["execute"],"org.apache.maven.plugins:maven-site-plugin:3.3:site":[],"org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M2:test":[]}}
+2021-05-02 19:39:09,632 [Takari usage stats reporter] ERROR i.t.s.m.i.fragment16.HttpClient16 - Could not submit usage statistics to https://stats.takari.io/stats
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method) ~[na:na]
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242) ~[na:na]
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:591) ~[na:na]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245) ~[na:na]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[na:na]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[na:na]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[na:na]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[na:na]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[na:na]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.execute(OkHttpAetherClient.java:207) ~[na:na]
+	at io.takari.aether.okhttp.OkHttpAetherClient.put(OkHttpAetherClient.java:201) ~[na:na]
+	at io.takari.stats.m2e.internal.fragment16.HttpClient16.post(HttpClient16.java:42) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.post(UsageStatsActivator.java:310) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator.reportUsageStats(UsageStatsActivator.java:219) ~[na:na]
+	at io.takari.stats.m2e.internal.UsageStatsActivator$2.run(UsageStatsActivator.java:163) ~[na:na]
+	at java.base/java.util.TimerThread.mainLoop(Timer.java:556) ~[na:na]
+	at java.base/java.util.TimerThread.run(Timer.java:506) ~[na:na]
+2021-05-03 14:26:29,208 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-15 00:01:29,756 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-15 00:01:52,698 [Worker-13: Launching Executing clean in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\testNGframework\testNGframework
+2021-05-15 00:01:52,700 [Worker-13: Launching Executing clean in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-15 00:01:58,121 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:01:58,134 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:01:58,141 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:01:58,265 [Worker-12: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:01:58,266 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:02:01,102 [Worker-9: Launching Executing install in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\testNGframework\testNGframework
+2021-05-15 00:02:01,102 [Worker-9: Launching Executing install in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-15 00:02:05,603 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:02:05,605 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:02:05,611 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:02:05,615 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:02:05,616 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:02:42,423 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:02:42,425 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:02:42,426 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:02:42,428 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:02:42,429 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:03:07,330 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:03:07,334 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:03:07,336 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:03:07,340 [Worker-5: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:03:07,342 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:03:42,038 [Worker-11: Launching Executing clean in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\testNGframework\testNGframework
+2021-05-15 00:03:42,039 [Worker-11: Launching Executing clean in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-15 00:03:44,731 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:03:44,734 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:03:44,736 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:03:44,740 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:03:44,741 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:03:51,529 [Worker-1: Launching Executing install in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\testNGframework\testNGframework
+2021-05-15 00:03:51,530 [Worker-1: Launching Executing install in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-15 00:04:15,144 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:04:15,145 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:04:15,148 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:04:15,152 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:04:15,153 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:05:01,619 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:05:01,621 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:05:01,623 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:05:01,626 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:05:01,627 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:05:21,492 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:05:21,495 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:05:21,497 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:05:21,503 [Worker-9: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:05:21,505 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:05:45,623 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:05:45,625 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:05:45,627 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:05:45,631 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:05:45,632 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:06:12,606 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:06:12,610 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:06:12,615 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:06:12,620 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:06:12,623 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:06:41,652 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:06:41,654 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:06:41,657 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:06:41,662 [Worker-4: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:06:41,665 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:06:47,052 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:06:47,054 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:06:47,057 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:06:47,063 [Worker-11: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:06:47,065 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:07:19,194 [Worker-13: Launching Executing clean in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\testNGframework\testNGframework
+2021-05-15 00:07:19,195 [Worker-13: Launching Executing clean in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-15 00:07:21,389 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:07:21,390 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:07:21,391 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:07:21,394 [Worker-8: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:07:21,396 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources
+2021-05-15 00:07:26,514 [Worker-3: Launching Executing install in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate - F:\testNGframework\testNGframework
+2021-05-15 00:07:26,514 [Worker-3: Launching Executing install in F__testNGframework_testNGframework] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-15 00:07:46,706 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+2021-05-15 00:07:46,708 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:07:46,710 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2021-05-15 00:07:46,713 [Worker-2: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-05-15 00:07:46,716 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\testNGframework\testNGframework\src\test\resources

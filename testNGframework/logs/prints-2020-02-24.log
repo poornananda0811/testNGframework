@@ -1,0 +1,7 @@
+01:14:09.041 [gmailTc1] INFO  com.testCases.GmailTestcase - Request URI:
+01:18:03.338 [facebookTC1] INFO  com.testCases.FacebookTestCase - Request URI:
+01:18:05.617 [gmailTc1] INFO  com.testCases.GmailTestcase - Request URI:
+01:21:55.172 [gmailTc1] INFO  com.testCases.GmailTestcase - Request URI:
+01:21:56.775 [facebookTC1] INFO  com.testCases.FacebookTestCase - Request URI:
+23:47:45.699 [facebookTC1] INFO  com.testCases.FacebookTestCase - Request URI:
+23:47:47.380 [gmailTc1] INFO  com.testCases.GmailTestcase - Request URI:
